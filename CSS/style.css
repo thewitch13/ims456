@@ -1,0 +1,95 @@
+ul 
+    {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+    }
+  
+li 
+    {
+    float: left;
+    }
+  
+li a    
+    {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+  
+li a:hover  
+    {
+    background-color: orangered;
+    }
+  
+.active 
+    {
+    background-color: indianred;
+    }
+
+.container 
+        {
+            background-color: blueviolet;
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-size: 75px;
+            margin-top: 5px;
+            block-size: 80px;
+            margin-bottom: 5px;
+        }
+
+
+.box1
+{
+    width: 50%;
+    float: left;
+    height: 400px;
+    display: block;
+}
+
+.box2
+{
+    width: 50%;
+    float: left;
+    height: 400px;
+    display: block;
+}
+
+.box3
+{
+    width: 50%;
+    float: left;
+    height: 600px;
+    display: block;
+}
+
+.box4
+{
+    width: 50%;
+    float: left;
+    height: 400px;
+    display: block;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .word {width: 40%; background-color: #04AA6D;}
+  .excel {width: 30%; background-color: #2196F3;}
+  .html {width: 20%; background-color: #f44336;}
+  .animate {width: 10%; background-color: #808080;}
+  .speaking {width: 50%; background-color: orange;}
